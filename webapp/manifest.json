@@ -42,8 +42,13 @@
           "action": "Display",
           "title": "{{PurchaseOrder-Display.flpTitle}}",
           "signature": {
-            "parameters": {},
-            "additionalParameters": "allowed"
+            "parameters": {
+              "PurchaseOrder": {
+                "required": true,
+                "renameTo": "PurchaseOrder"
+              }
+            },
+            "additionalParameters": "ignored"
           }
         },
         "PurchaseOrder-display": {
@@ -51,8 +56,13 @@
           "action": "display",
           "title": "{{PurchaseOrder-display.flpTitle}}",
           "signature": {
-            "parameters": {},
-            "additionalParameters": "allowed"
+            "parameters": {
+              "PurchaseOrder": {
+                "required": true,
+                "renameTo": "PurchaseOrder"
+              }
+            },
+            "additionalParameters": "ignored"
           }
         }
       }
