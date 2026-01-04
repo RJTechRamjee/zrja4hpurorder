@@ -37,15 +37,6 @@
     },
     "crossNavigation": {
       "inbounds": {
-        "PurchaseOrder-Display": {
-          "semanticObject": "PurchaseOrder",
-          "action": "Display",
-          "title": "{{PurchaseOrder-Display.flpTitle}}",
-          "signature": {
-            "parameters": {},
-            "additionalParameters": "allowed"
-          }
-        },
         "PurchaseOrder-display": {
           "semanticObject": "PurchaseOrder",
           "action": "display",
